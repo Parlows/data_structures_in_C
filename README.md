@@ -1,2 +1,5 @@
-# data_structures_in_C
-Just a project to implement several data structures in C from scratch, with training purposes
+# Data Structures in C
+
+I created this project just to train myself in implementing
+some of the most widespread data structures from scratch in C
+language, with educational purposes.
