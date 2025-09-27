@@ -1,4 +1,4 @@
-#include "array_strings.h"
+#include <arrays/strings/array_strings.h>
 
 /* Returns length of the array */
 int my_strlen(const char * string)

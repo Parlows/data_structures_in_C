@@ -1,4 +1,4 @@
-#include <array_strings.h>
+#include <arrays/strings/array_strings.h>
 #include <stdio.h>
 
 int main(int argc, char ** argv)
