@@ -9,14 +9,14 @@ and Aaron M. Tenenbaum:
 
 ```bibtex
 @book {
-    title: "Data Structures Using C",
-    authors: [
+    title = "Data Structures Using C",
+    authors = {
         "Yedidyah Langsam",
         "Moshe J. Augenstein",
         "Aaron M. Tenenbaum"
-    ]
-    edition: "2nd",
-    year: 1996
+    },
+    edition = "2nd",
+    year = 1996
 }
 ```
 
