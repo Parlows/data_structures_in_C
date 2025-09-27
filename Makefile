@@ -21,7 +21,12 @@ STRINGSFILE := $(STRINGSSUBDIR)/$(STRINGS)
 # Macros
 MKDIR := mkdir -p
 
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.PHONY: all
 
+all: strings
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .PHONY: strings
 
 $(BUILDDIR)/$(STRINGSFILE).o: $(SRCDIR)/$(STRINGSFILE).c
@@ -34,10 +39,10 @@ $(BUILDDIR)/$(EXAMPLEDIR)/$(STRINGSFILE).out: $(BUILDDIR)/$(STRINGSFILE).o $(EXA
 
 strings: $(BUILDDIR)/$(EXAMPLEDIR)/$(STRINGSFILE).out
 
-
-
-
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .PHONY: clean
 
 clean:
 	@rm -rfv build/
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
