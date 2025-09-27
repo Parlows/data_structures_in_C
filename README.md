@@ -1,10 +1,10 @@
 # Data Structures in C
 
-I created this project just to train myself in implementing
+I created this project practice implementing
 some of the most widespread data structures from scratch in C
-language, with educational purposes.
+language, for educational purposes.
 
-This study will be based on the book _Data Structures Using C_, Second Edition by Yedidyah Langsam, Moshe J. Augenstein
+This study is based on the book _Data Structures Using C_, Second Edition by Yedidyah Langsam, Moshe J. Augenstein
 and Aaron M. Tenenbaum:
 
 ```bibtex
