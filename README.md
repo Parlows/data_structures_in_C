@@ -66,6 +66,18 @@ To run the testing code:
 ./build/examples/stack/array_stack.out
 ```
 
+To build the code correspondant to the linked stack data structure, run:
+
+```bash
+make linked_stack
+```
+
+To run the testing code:
+
+```bash
+./build/examples/stack/linked_stack.out
+```
+
 To build all the stacks:
 
 ```bash
