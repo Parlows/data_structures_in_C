@@ -60,10 +60,10 @@ void print_stack(struct array_stack s)
 {
     printf("[");
     if(s.top > -1) {
-        for (int i = 0; i < s.top; i++) {
+        for (int i = s.top; i > 0; i--) {
             printf("%d, ", s.items[i]);
         }
-        printf("%d", s.items[s.top]);
+        printf("%d", s.items[0]);
     }
     printf("]\n");
 }
